@@ -1,0 +1,87 @@
+.supermarket {
+  width: 133.6rem;
+  height: 11rem;
+  margin: 1.5rem auto;
+  margin-bottom: 0;
+  background-color: #0a0a0a;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .con-right {
+
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+    align-items: center;
+
+    .takhfif {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 2;
+      padding: 0 12px;
+      background-color: #029a49;
+      border-radius: 100px;
+    }
+  }
+
+  .con-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 4rem;
+
+    .superelem {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      height: 7.4rem;
+      border-radius: 50%;
+      width: 7.4rem;
+      position: relative;
+
+      img {
+        margin: 0 auto;
+        width: 5rem;
+        height: 5rem;
+      }
+
+      &::after {
+        content: "۵۰٪";
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        color: #fff;
+        font-weight: 500;
+        background-color: #d32f2f;
+        border-radius: 100px;
+        padding: 4px 8px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+    }
+
+    .supercta {
+      background-color: #fff;
+      padding: 1.2rem 2rem;
+      border-radius: 100px;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      color: #029a49;
+      font-size: 1.2rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      font-weight: 700;
+
+      svg {
+        width: 2rem;
+        height: 2rem;
+        fill: #029a49;
+      }
+    }
+  }
+
+}

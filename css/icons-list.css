@@ -1,0 +1,52 @@
+.icons-list {
+  width: 133.6rem;
+  height: 12rem;
+  margin: 1rem auto;
+  padding: 0 1.6rem;
+  justify-content: space-around;
+
+  .icon-item {
+
+    flex-flow: column;
+    padding-top: 1rem;
+
+    .icon-con {
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+
+
+    .icon-text {
+      display: block;
+      margin: 0rem auto;
+      font-weight: 400;
+      font-size: 1.3rem;
+      padding-top: 1rem;
+      color: #3f4064;
+    }
+  }
+
+
+  .last-icon {
+    width: 5.2rem;
+    height: 5.2rem;
+    background-color: #8c8c8caa;
+    border-radius: 50%;
+    display: flex;
+    opacity: 0.3;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+  }
+
+
+
+
+
+}

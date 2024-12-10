@@ -1,0 +1,55 @@
+.barnds {
+  margin: 0 auto;
+  width: 133.6rem;
+  height: 22.4rem;
+  padding: 2.4rem 0;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: column nowrap;
+
+
+  .brands-title {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 2.1rem;
+    line-height: 2.1;
+    font-weight: 500;
+    color: #0c0c0c;
+
+    svg {
+      fill: #f9bc00;
+    }
+  }
+
+  .brand-logo {
+    width: 14.2rem;
+    height: 11.8rem;
+    padding: 4px 16px;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+
+    img {
+      width: 11rem;
+      height: 11rem;
+      object-fit: contain;
+    }
+
+  }
+}
+
+.swiper-slide:nth-of-type(1) {
+  .brand-logo {
+    border-right: none;
+
+  }
+}
+
+.swiper-slide:nth-last-of-type(1) {
+  .brand-logo {
+    border-left: none;
+
+  }
+
+}

@@ -1,0 +1,101 @@
+.bestsellers,
+.hottest {
+  margin: 2rem auto;
+  width: 133.6rem;
+  height: 40.4rem;
+  padding: 1.6rem 0;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+
+  .bestsellers-title,
+  .hottest-title {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 2.1rem;
+    line-height: 2.1;
+    font-weight: 500;
+    color: #0c0c0c;
+
+    svg {
+      fill: #f9bc00;
+    }
+
+    &::after {
+      content: "مشاهده همه";
+      cursor: pointer;
+      position: absolute;
+      color: #19bfd3;
+      font-weight: 700;
+      font-size: 1.4rem;
+      top: 2rem;
+      left: 2rem;
+
+
+    }
+  }
+
+
+
+  .bestsellers-con {
+
+    width: 31.4rem;
+    height: 29.8rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+    .bestsellers-line {
+      height: 1px;
+      width: 20rem;
+      background: rgba(0, 0, 0, 0.05);
+      align-self: flex-end;
+    }
+
+    .bestsellers-item {
+      display: flex;
+      height: 8.6rem;
+      align-items: center;
+
+      img {
+        width: 8.6rem;
+        height: 8.6rem;
+        object-fit: cover;
+      }
+
+      span {
+        font-size: 2.6rem;
+        display: inline-block;
+        width: 3rem;
+        color: #19bfd3;
+        margin-left: 12px;
+        margin-right: 10px;
+        font-weight: 800;
+        line-height: 2.1;
+        font-size: 2.6rem;
+        margin-left: 12px;
+      }
+
+      .text-con {
+
+        p {
+
+          display: inline-block;
+          font-size: 1.2rem;
+          font-weight: 400;
+          line-height: 2.17;
+          color: #3f4064;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+      }
+
+
+    }
+  }
+}

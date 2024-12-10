@@ -1,0 +1,40 @@
+.banner {
+  height: 40rem;
+
+  .bannerslider {
+    position: relative;
+
+    .swiper-slide {
+      cursor: pointer;
+
+      img {
+        object-fit: cover;
+
+      }
+    }
+
+    .swiper-button-next {
+      position: absolute;
+      right: 10rem;
+      top: 90%;
+
+    }
+
+    .swiper-button-prev {
+      top: 90%;
+      right: 5rem;
+      position: absolute;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #fff;
+      width: 2rem;
+      border-radius: 100px;
+      transition: all 300ms;
+    }
+
+    .swiper-pagination {
+      transition: all 300ms;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.story {
+  width: 133.6rem;
+  height: 15.5rem;
+  padding: 1rem 0;
+  margin: 1.6rem auto 1rem;
+}
+
+.container {}
+
+.story-col {
+  height: inherit;
+  flex-flow: column nowrap;
+
+}
+
+.story-top {
+  width: 8rem;
+  height: 8rem;
+  background: linear-gradient(rgb(105, 0, 128), rgb(241, 3, 130));
+  border-radius: 50%;
+  border: 3px solid #fff;
+  outline: 2px solid purple;
+}
+
+.story-image {
+  margin: 0 auto;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+
+}
+
+.story-bottom {
+  font-size: 1.1rem;
+  width: 8.4rem;
+  height: 4.7rem;
+  font-weight: 400;
+  padding: 0.8rem 0 0;
+  color: #23254e;
+
+  p {
+    line-height: 1.8;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,58 @@
+.digiclub {
+  width: 133.6rem;
+  height: 8.8rem;
+  margin: 1.5rem auto;
+  margin-bottom: 0;
+  background-color: #0a0a0a;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .con-right {
+
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+    align-items: center;
+
+    .takhfif {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 2;
+      padding: 0 12px;
+      background-color: #029a49;
+      border-radius: 100px;
+    }
+  }
+
+  .con-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 2rem;
+
+    .superelem {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      height: 6.4rem;
+      border-radius: 5px;
+      width: 27.5rem;
+      position: relative;
+      cursor: pointer;
+      object-fit: contain;
+
+      img {
+        height: 6.4rem;
+        border-radius: 5px;
+        width: 27.5rem;
+      }
+
+
+    }
+
+  }
+
+}
