@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: yekan, sans-serif;
+  font-family: 'yekan', homa, sans-serif;
   scrollbar-width: thin;
 }
 
@@ -21,6 +21,14 @@ body {
   src: url(../font/IRANYekanWeb.ttf);
   src: url(../font/IRANYekanWeb.woff);
   src: url(../font/IRANYekanWeb.woff2);
+}
+
+@font-face {
+  font-family: homa;
+  src: url(../font/BHOMA.eot);
+  src: url(../font/BHOMA.TTF);
+  src: url(../font/BHOMA.woff);
+  src: url(../font/BHOMA.woff2);
 }
 
 .container {
